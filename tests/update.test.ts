@@ -7,7 +7,7 @@ import { prisma } from "../prisma/prisma-instance";
 
 const { patch } = AxiosInstance;
 
-describe("POST /dogs", () => {
+describe("PATCH /dogs", () => {
   let doomslayer: Dog;
 
   beforeEach(async () => {
